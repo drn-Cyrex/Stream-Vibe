@@ -1,0 +1,24 @@
+.slider {
+   position: relative;
+}
+
+.slider--beyond-the-viewport-on-mobile-s {
+   @include mobile-s {
+      width: calc(100vw - var(--container-padding-x));
+   }
+}
+
+.slider__scrollbar {
+   @include abs-x;
+   top: calc(100% + 24px);
+   width: 80px;
+   height: 5px;
+   background-color: var(--color-black-20);
+   border-radius: 20px;
+}
+
+.slider__scrollbar-drag {
+   height: 100%;
+   background-color: var(--color-red-45);
+   border-radius: inherit;
+}

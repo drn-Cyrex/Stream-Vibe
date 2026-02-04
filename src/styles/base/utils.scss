@@ -1,0 +1,61 @@
+@use "../abstracts" as *;
+
+// .container {
+//    width: 100%;
+//    max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+//    margin-inline: auto;
+//    padding-inline: var(--container-padding-x);
+// }
+
+.container {
+   max-width: 1920px;
+   width: 90%;
+   margin-inline: auto;
+   padding-inline: var(--container-padding-x);
+}
+
+.visually-hidden {
+   @include visually-hidden;
+}
+
+.visible-tablet {
+   @include tablet-above {
+      display: none !important;
+   }
+}
+
+.hidden-tablet {
+   @include tablet {
+      display: none !important;
+   }
+}
+
+.visible-mobile {
+   @include mobile-above {
+      display: none !important;
+   }
+}
+
+.hidden-mobile {
+   @include mobile {
+      display: none !important;
+   }
+}
+
+// animation text
+.anm-txt {
+   transform: translateY(100%);
+   opacity: 0;
+   filter: blur(20px);
+   animation: txt linear both;
+   animation-timeline: view(block);
+   animation-range: cover 0% cover 20%;
+}
+
+@keyframes txt {
+   to {
+      transform: translateY(0%);
+      opacity: 1;
+      filter: blur(0);
+   }
+}

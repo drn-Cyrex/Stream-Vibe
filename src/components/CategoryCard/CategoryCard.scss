@@ -1,0 +1,96 @@
+.category-card {
+   --categoryCardImagesGradientOpacity: 1;
+   --gradient-glow: oklch(0.5789 0.23756 29.2339 /20%), oklch(1 0 0 / 10%),  oklch(1 0 0 / 0%),
+      oklch(1 0 0 / 10%), oklch(57.889% 0.23756 29.223 /20%);
+
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+   padding: fluid(30, 20);
+   border: 1px solid transparent;
+   border-radius: var(--border-radius-l);
+   background: linear-gradient(var(--color-black-10)) padding-box,
+      conic-gradient(from 140deg, var(--gradient-glow)) border-box;
+
+   @include hover {
+      // --categoryCardImagesGradientOpacity: 0;
+   }
+
+   @include laptop {
+      border-radius: var(--border-radius-m);
+   }
+
+   &:focus-visible {
+      outline-offset: -2px;
+   }
+}
+
+.category-card__images {
+   position: relative;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 5px;
+
+   &::before {
+      content: "";
+      @include abs-cover;
+      background-image: linear-gradient(
+         180deg,
+         rgba(26, 26, 26, 0) 0%,
+         var(--color-black-10) 101.79%
+      );
+      opacity: var(--categoryCardImagesGradientOpacity);
+      transition-duration: var(--transition-duration);
+   }
+}
+
+.category-card__image {
+   height: fluid(124, 68);
+   width: 100%;
+   object-fit: cover;
+   border-radius: var(--border-radius-m);
+
+   @include laptop {
+      border-radius: var(--border-radius-xs);
+   }
+}
+
+.category-card__body {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   column-gap: 10px;
+}
+
+.category-card__title {
+   font-size: inherit;
+   font-weight: 600;
+}
+
+.category-card__icon {
+   @include hover {
+      left: 0;
+   }
+
+   &.icon {
+      --iconSize: #{fluid(30, 20)};
+   }
+}
+
+//animation arrow  card
+@media (any-hover: hover) {
+   .category-card__icon {
+      position: relative;
+      left: -100%;
+      opacity: 0;
+      filter: blur(10px);
+      transition: 0.5s ease;
+   }
+}
+@media (any-hover: hover) {
+   .category-card:hover .category-card__icon {
+      left: 0;
+      opacity: 1;
+      filter: blur(0);
+   }
+}
