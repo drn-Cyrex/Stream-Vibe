@@ -42,3 +42,24 @@
    grid-template-columns: repeat(2, 1fr);
    column-gap: fluid-to-laptop(20, 12);
 }
+
+.plan-card__actions a:nth-child(1) {
+   position: relative;
+   background-color: var(--color-black-10);
+
+   &::before {
+      content: "";
+      position: absolute;
+      inset: 0px;
+      z-index: -2;
+      border-radius: 7px;
+      background-image: conic-gradient(white, black, black, white);
+      filter: blur(2px);
+      opacity: 1;
+      transition: 0.25s ease;
+   }
+
+   &:hover::before {
+      inset: -3px;
+   }
+}

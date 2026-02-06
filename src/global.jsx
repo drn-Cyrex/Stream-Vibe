@@ -1,6 +1,7 @@
 import { Head } from "minista"
 import Header from '@/layouts/Header/Header'
 import Main from "@/layouts/Main/Main"
+import Banner from "./sections/Banner/Banner"
 import Footer from "@/layouts/Footer/Footer"
 
 export default function (props) {
@@ -25,8 +26,9 @@ export default function (props) {
          </Head>
 
          <Header url={url} isFixed={isHeaderFixed} />
-         <Main>
+         <Main isResetPaddingTop={isHeaderFixed}>
             {children}
+            <Banner />
          </Main>
          <Footer />
       </>

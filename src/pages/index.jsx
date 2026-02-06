@@ -8,9 +8,6 @@ import Plans from "@/sections/Plans/Plans"
 export const metadata = {
    title: 'Home',
    isHeaderFixed: true,
-   // возможные проблемы с данным свойством,
-   //  которое  определяет  position: sticky или fixed для header
-   //  на разных страницах 
 }
 
 export default function () {
