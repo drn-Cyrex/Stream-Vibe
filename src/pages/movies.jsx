@@ -1,8 +1,4 @@
-import Section from "@/layouts/Section/Section"
-import DrnAccordion from "@/components/DRN/DrnAccordion/DrnAccordion"
-import Button from "@/components/Button/Button"
-import DrnQuestions from "@/components/DRN/DrnQuestions/DrnQuestions"
-
+import MoviesBanner from "@/sections/MoviesBanner/MoviesBanner"
 
 export const metadata = {
    title: 'Movies & and Shows'
@@ -12,6 +8,6 @@ export const metadata = {
 export default function () {
 
    return (
-      <h1>movies</h1>
+     <MoviesBanner />
    )
 }

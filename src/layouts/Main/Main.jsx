@@ -1,5 +1,5 @@
-import classNames from 'classnames'
 import './Main.scss'
+import classNames from 'classnames'
 
 const Main = (props) => {
    const {

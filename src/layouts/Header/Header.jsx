@@ -31,7 +31,10 @@ const Header = (props) => {
 
    return (
       <>
-         <header className={classNames('header',{'is-fixed': isFixed} )}>
+         <header
+            className={classNames('header', {
+               'is-fixed': isFixed,
+            })}>
             <Logo loading='eager' />
             <nav className='header__nav' data-js-overlay-menu-mobile=''>
                <ul>

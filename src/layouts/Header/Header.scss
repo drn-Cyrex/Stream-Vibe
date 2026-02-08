@@ -1,6 +1,5 @@
 .header {
-   // position: sticky;
-   position: fixed;
+   position: sticky;
    top: 0;
    z-index: 100;
    height: fluid(120, 90);
@@ -20,16 +19,16 @@
    animation-timeline: scroll();
    animation-range: 0 100px;
 
+   &.is-fixed {
+      position: fixed;
+   }
+
    @keyframes header-border-bottom {
       to {
          padding-block: 10px;
-         border-color: var(--color-black-15);
+         border-color: var(--color-black-25);
       }
    }
-}
-
-.header.is-fixed {
-   position: fixed;
 }
 
 .header__nav ul {
