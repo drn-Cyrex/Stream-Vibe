@@ -1,6 +1,7 @@
 .slider-navigation {
    display: flex;
    align-items: center;
+   justify-content: space-between;
 }
 
 .slider-navigation--tile {
@@ -13,6 +14,13 @@
    @include laptop {
       border-radius: var(--border-radius-m);
    }
+}
+
+.slider-navigation--abs-bottom {
+   position: absolute;
+   z-index: 1;
+   inset-inline: fluid-to-laptop(40, 40);
+   bottom: fluid-to-laptop(20, 16);
 }
 
 .slider-navigation__pagination {
@@ -29,6 +37,6 @@
 }
 
 .slider-navigation__pagination-bullet.is-active {
-   width: 23px;
+   width: 33px;
    background-color: var(--color-red-45);
 }

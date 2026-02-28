@@ -11,9 +11,7 @@ const MovieBannerCard = (props) => {
    } = props
 
    return (
-      <div
-         className='movies-banner-card'
-      >
+      <div className='movies-banner-card'>
          <Image
             className='movies-banner-card__image'
             src={imgSrc}
@@ -34,7 +32,24 @@ const MovieBannerCard = (props) => {
                   label='Play Now'
                />
                <div className="movies-banner-card__actions">
-                  
+                  <Button
+                     mode='black-06'
+                     iconName='plus'
+                     label='Add to playlist'
+                     isLabelHidden
+                  />
+                  <Button
+                     mode='black-06'
+                     iconName='like'
+                     label='Like'
+                     isLabelHidden
+                  />
+                  <Button
+                     mode='black-06'
+                     iconName='volume'
+                     label='Mute'
+                     isLabelHidden
+                  />
                </div>
             </div>
          </div>

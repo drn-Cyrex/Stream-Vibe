@@ -1,5 +1,16 @@
+.tabs {
+   --tabsNonActiveContentDisplay: none;
+}
+
+.tabs--enable-only-on-mobile {
+   @include mobile-above {
+      tabsNonActiveContentDisplay: block;
+      --tansNavigationDisplay: none;
+   }
+}
+
 .tabs__content:not(.is-active) {
-   display: none;
+   display: var(--tabsNonActiveContentDisplay);
 }
 
 

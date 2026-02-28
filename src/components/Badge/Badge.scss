@@ -1,0 +1,38 @@
+.badge {
+   padding: 6px 10px;
+   font-size: fluid-to-laptop(14, 12);
+   font-weight: 500;
+   line-height: 1;
+   color: var(--color-gray-60);
+   white-space: nowrap;
+   background-color: var(--color-black-08);
+   border: var(--border);
+   border-radius: 50px;
+
+   @include mobile {
+      padding-inline: 8px;
+   }
+}
+
+.badge--accent {
+   position: absolute;
+   z-index: -1;
+   left: fluid(0, -5);
+   bottom: fluid(25, 15);
+   color: var(--white);
+   border: 1px solid transparent;
+   color: var(--color-red-45) !important;
+   background-color: transparent;
+   font-size: fluid(60, 53);
+   opacity: 0.25;
+
+   @include laptop {
+      border-radius: var(--border-radius-xxxs);
+   }
+}
+
+.badge-big {
+   padding: fluid-to-laptop(10, 8);
+   font-size: fluid-to-laptop(16, 12);
+   font-weight: 600;
+}

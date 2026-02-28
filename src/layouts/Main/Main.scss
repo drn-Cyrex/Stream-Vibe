@@ -1,8 +1,9 @@
 .main {
-  padding-top: fluid-to-laptop(50, 40);
-  padding-bottom: var(--section-padding-y);
-
-  &--reset-padding-top {
-    padding-top: 0;
-  }
+   flex-grow: 1;
+   display: grid;
+   gap: 120px;
+   
+   &--reset-padding-top {
+      padding-top: 0;
+   }
 }
