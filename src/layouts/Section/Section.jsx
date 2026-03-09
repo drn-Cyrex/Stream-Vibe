@@ -19,7 +19,7 @@ const Section = (props) => {
          <header className='section__header'>
 
             <div className="section__info anm-txt">
-               <h3 id={titleId}> {title} </h3>
+               <h3 id={titleId}>{title}</h3>
                
                {description && (
                   <div className='section__description anm-txt'>

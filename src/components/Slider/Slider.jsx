@@ -14,13 +14,13 @@ const defaultSliderParams = {
          spaceBetween: 20,
       },
       481: {
-         slidesPerView: 3,
-         slidesPerGroup: 3,
+         slidesPerView: 2,
+         slidesPerGroup: 2,
          spaceBetween: 20,
       },
       768: {
-         slidesPerView: 4,
-         slidesPerGroup: 4,
+         slidesPerView: 3,
+         slidesPerGroup: 3,
          spaceBetween: 20,
       },
       1024: {
@@ -41,8 +41,10 @@ const Slider = (props) => {
       sliderParams = defaultSliderParams,
       isBeyondTheViewportOnMobileS,
       hasScrollbarOnMobile = true,
-
-      navigationPosition =  '',
+      /**
+       * '' (default) | 'abs-bottom'
+       */
+      navigationPosition = '',
       isNavigationHiddenMobile = true
    } = props
 

@@ -1,5 +1,6 @@
-import classNames from 'classnames'
 import './Badge.scss'
+import classNames from 'classnames'
+import Icon from '../Icon/Icon'
 
 const Badge = (props) => {
 
@@ -8,6 +9,9 @@ const Badge = (props) => {
       mode = '',
       isBig = false,
       children,
+      iconName,
+      hasFillIcon,
+      iconAriaLabel,
    } = props
 
    return (
@@ -15,7 +19,15 @@ const Badge = (props) => {
          [`badge--${mode}`]: mode,
          'badge--big': isBig
       })}>
-         {children}
+         {iconName && (
+            <Icon
+               className='badge__icon'
+               name={iconName}
+               hasFill={hasFillIcon}
+               ariaLabel={iconAriaLabel}
+            />
+         )}
+         <span>{children}</span>
       </div>
    )
 }

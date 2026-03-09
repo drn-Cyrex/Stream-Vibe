@@ -7,6 +7,7 @@ import Section from '@/layouts/Section/Section'
 import SliderNavigation from '@/components/Slider/components/SliderNavigation/SliderNavigation'
 import Slider from '@/components/Slider/Slider'
 import CategoryCard from '@/components/CategoryCard/CategoryCard'
+import MovieCard from '@/components/MovieCard/MovieCard'
 
 const Collections = () => {
    return (
@@ -19,7 +20,7 @@ const Collections = () => {
             title: collectionGroup.title,
             children: (
                <div className="collections__group">
-                  <p className="collections__title hidden-mobile">
+                  <p className="collections__title  hidden-mobile">
                      {collectionGroup.title}
                   </p>
                   {collectionGroup.items.map((collectionItem, index) => {
