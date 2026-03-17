@@ -31,6 +31,10 @@
    }
 }
 
+.movies-banner-card__inner--small-padding-y {
+   padding-block: fluid-to-laptop(20, 16);
+}
+
 .movies-banner-card__body {
    display: grid;
    row-gap: fluid-to-laptop(4, 2);
@@ -97,7 +101,6 @@
    }
 }
 
-
 .movies-banner-card__actions > button {
    --start-position-left: -10rem;
    position: relative;
@@ -114,7 +117,7 @@
    }
 
    @include mobile {
-      animation-delay: .75s;
+      animation-delay: 0.75s;
    }
 }
 @keyframes banner-btn {

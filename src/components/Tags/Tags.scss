@@ -1,0 +1,18 @@
+.tags__list {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+}
+
+.tags__item {
+   padding: fluid-to-laptop(8, 6) fluid-to-laptop(14, 12);
+   font-weight: 500;
+   color: var(--color-white);
+   background-color: var(--color-black-08);
+   border: var(--border);
+   border-radius: var(--border-radius-s);
+
+   @include laptop {
+      border-radius: var(--border-radius-xs);
+   }
+}

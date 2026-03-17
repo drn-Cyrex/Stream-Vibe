@@ -16,6 +16,14 @@
    }
 }
 
+.slider-navigation--rounded {
+   column-gap: fluid-to-laptop(10, 8);
+
+   .slider-navigation__arrow-button {
+      border-radius: 50%;
+   }
+}
+
 .slider-navigation--abs-bottom {
    position: absolute;
    z-index: 1;
