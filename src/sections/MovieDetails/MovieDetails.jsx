@@ -9,7 +9,12 @@ import Slider from '@/components/Slider/Slider'
 import SliderNavigation from '@/components/Slider/components/SliderNavigation/SliderNavigation'
 
 
-const MovieDetails = () => {
+const MovieDetails = (props) => {
+
+   const {
+      seasons,
+   } = props
+
    const titleId = 'movie-details-title'
    const castSliderNavigationId = 'movie-card-slider-navigation'
 
@@ -67,7 +72,7 @@ const MovieDetails = () => {
          description: 'This movie was recommended to me by a very dear friend who went for the movie by herself. I went to the cinemas to watch but had a houseful board so couldn’t watch it.',
          ratingValue: 4.5,
       },
-       {
+      {
          name: 'Swaraj',
          subtitle: 'From India',
          description: 'A restless king promises his lands to the local tribals in exchange of a stone (Panjurli, a deity of Keradi Village) wherein he finds solace and peace of mind.',
@@ -85,6 +90,15 @@ const MovieDetails = () => {
          </h2>
 
          <div className="movie-details__main">
+
+            {seasons && (
+               <div className="movie-details__panel movie-details__panel--seasons">
+                  <div className="movie-details__group movie-details__group-big-gap-y">
+                     <h3 className='h4'>Seasons and Episodes</h3>
+                     {seasons}
+                  </div>
+               </div>
+            )}
 
             <div className="movie-details__panel movie-details__panel--description">
                <div className="movie-details__group">
