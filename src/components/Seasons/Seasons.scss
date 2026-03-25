@@ -1,0 +1,15 @@
+.seasons {
+}
+
+.seasons_list {
+   @include mobile {
+      display: grid;
+      row-gap: 20px;
+   }
+}
+
+.seasons__item {
+   @include mobile-above {
+      border-top: var(--border);
+   }
+}

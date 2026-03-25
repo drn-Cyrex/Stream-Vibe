@@ -15,8 +15,6 @@ const seasonItems = [
                poster: "/public/video-posters/1.jpg",
             },
          },
-      ],
-      episodes: [
          {
             number: "02",
             title: "Chapter Two: The Weirdo on Maple Street",
@@ -25,11 +23,9 @@ const seasonItems = [
             duration: "56 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/1.jpg",
+               poster: "/public/video-posters/2.jpg",
             },
          },
-      ],
-      episodes: [
          {
             number: "03",
             title: "Chapter Three: Holly, Jolly",
@@ -38,11 +34,9 @@ const seasonItems = [
             duration: "52 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/1.jpg",
+               poster: "/public/video-posters/3.jpg",
             },
          },
-      ],
-      episodes: [
          {
             number: "04",
             title: "Chapter Four: The Body",
@@ -51,11 +45,9 @@ const seasonItems = [
             duration: "51 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/1.jpg",
+               poster: "/public/video-posters/4.jpg",
             },
          },
-      ],
-      episodes: [
          {
             number: "05",
             title: "Chapter Five: The Flea and the Acrobat",
@@ -64,11 +56,9 @@ const seasonItems = [
             duration: "53 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/1.jpg",
+               poster: "/public/video-posters/5.jpg",
             },
          },
-      ],
-      episodes: [
          {
             number: "06",
             title: "Chapter One : The Vanishing of Will Byers",
@@ -80,8 +70,6 @@ const seasonItems = [
                poster: "/public/video-posters/1.jpg",
             },
          },
-      ],
-      episodes: [
          {
             number: "07",
             title: "Chapter One : The Vanishing of Will Byers",
@@ -90,11 +78,9 @@ const seasonItems = [
             duration: "49 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/1.jpg",
+               poster: "/public/video-posters/2.jpg",
             },
          },
-      ],
-      episodes: [
          {
             number: "08",
             title: "Chapter One : The Vanishing of Will Byers",
@@ -103,11 +89,9 @@ const seasonItems = [
             duration: "49 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/1.jpg",
+               poster: "/public/video-posters/3.jpg",
             },
          },
-      ],
-      episodes: [
          {
             number: "09",
             title: "Chapter One : The Vanishing of Will Byers",
@@ -116,7 +100,7 @@ const seasonItems = [
             duration: "49 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/1.jpg",
+               poster: "/public/video-posters/4.jpg",
             },
          },
       ],
@@ -137,8 +121,6 @@ const seasonItems = [
                poster: "/public/video-posters/1.jpg",
             },
          },
-      ],
-      episodes: [
          {
             number: "02",
             title: "Chapter Two: The Weirdo on Maple Street",
@@ -147,11 +129,9 @@ const seasonItems = [
             duration: "56 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/1.jpg",
+               poster: "/public/video-posters/2.jpg",
             },
          },
-      ],
-      episodes: [
          {
             number: "03",
             title: "Chapter Three: Holly, Jolly",
@@ -160,11 +140,9 @@ const seasonItems = [
             duration: "52 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/1.jpg",
+               poster: "/public/video-posters/3.jpg",
             },
          },
-      ],
-      episodes: [
          {
             number: "04",
             title: "Chapter Four: The Body",
@@ -173,11 +151,9 @@ const seasonItems = [
             duration: "51 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/1.jpg",
+               poster: "/public/video-posters/4.jpg",
             },
          },
-      ],
-      episodes: [
          {
             number: "05",
             title: "Chapter Five: The Flea and the Acrobat",
@@ -186,7 +162,7 @@ const seasonItems = [
             duration: "53 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/1.jpg",
+               poster: "/public/video-posters/5.jpg",
             },
          },
       ],
@@ -207,8 +183,6 @@ const seasonItems = [
                poster: "/public/video-posters/1.jpg",
             },
          },
-      ],
-      episodes: [
          {
             number: "02",
             title: "Chapter Two: The Weirdo on Maple Street",
@@ -217,11 +191,9 @@ const seasonItems = [
             duration: "56 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/1.jpg",
+               poster: "/public/video-posters/2.jpg",
             },
          },
-      ],
-      episodes: [
          {
             number: "03",
             title: "Chapter Three: Holly, Jolly",
@@ -230,11 +202,9 @@ const seasonItems = [
             duration: "52 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/1.jpg",
+               poster: "/public/video-posters/3.jpg",
             },
          },
-      ],
-      episodes: [
          {
             number: "04",
             title: "Chapter Four: The Body",
@@ -243,11 +213,9 @@ const seasonItems = [
             duration: "51 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/1.jpg",
+               poster: "/public/video-posters/4.jpg",
             },
          },
-      ],
-      episodes: [
          {
             number: "05",
             title: "Chapter Five: The Flea and the Acrobat",
@@ -256,33 +224,29 @@ const seasonItems = [
             duration: "53 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/1.jpg",
+               poster: "/public/video-posters/5.jpg",
             },
          },
-      ],
-      episodes: [
          {
             number: "06",
-            title: "Chapter Five: The Flea and the Acrobat",
+            title: "Chapter One : The Vanishing of Will Byers",
             description:
-               "Hopper breaks into the lab while Nancy and Jonathan confront the force that took Will. The boys ask Mr. Clarke how to travel to another dimension.",
-            duration: "53 min",
+               "On his way from a friend’s house, young Will sees something terrifying . Nearby, a sinister secret lurks in the depths of a government lab.",
+            duration: "49 min",
             video: {
                src: "/videos/example.mp4",
                poster: "/public/video-posters/1.jpg",
             },
          },
-      ],
-      episodes: [
          {
             number: "07",
-            title: "Chapter Five: The Flea and the Acrobat",
+            title: "Chapter One : The Vanishing of Will Byers",
             description:
-               "Hopper breaks into the lab while Nancy and Jonathan confront the force that took Will. The boys ask Mr. Clarke how to travel to another dimension.",
-            duration: "53 min",
+               "On his way from a friend’s house, young Will sees something terrifying . Nearby, a sinister secret lurks in the depths of a government lab.",
+            duration: "49 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/1.jpg",
+               poster: "/public/video-posters/2.jpg",
             },
          },
       ],
