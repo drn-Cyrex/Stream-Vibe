@@ -83,12 +83,12 @@
       position: absolute;
       top: calc(100% + 4px);
       display: grid;
-      row-gap: 4px;
-      min-width: 300px;
+      row-gap: 10px;
+      min-width: 150px;
       max-height: 250px;
       overflow-y: auto;
       overscroll-behavior: none;
-      padding: 4px;
+      padding: 15px;
       background-color: var(--color-black-06);
       border: var(--border);
       border-radius: var(--border-radius-l);
@@ -106,7 +106,6 @@
 
       &:not(.is-expanded) {
          @include hide;
-
          scale: 0;
       }
    }
@@ -117,12 +116,15 @@
       align-items: center;
       column-gap: 10px;
       padding: 10px;
-      border: var(--border);
+      box-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
       border-radius: inherit;
+      transition: ease 0.25s;
 
       @include hover {
          color: var(--color-white);
          border-color: var(--color-white);
+         scale: 1.1;
+         box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
       }
 
       &.is-selected {

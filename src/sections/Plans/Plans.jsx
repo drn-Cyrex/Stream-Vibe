@@ -1,4 +1,3 @@
-import './Plans.scss'
 import Section from '@/layouts/Section/Section'
 import Grid from '@/components/Grid/Grid'
 import plansGroups from './plansGroups'
@@ -44,6 +43,5 @@ const Plans = () => {
       </Section>
    )
 }
-
 export default Plans
 

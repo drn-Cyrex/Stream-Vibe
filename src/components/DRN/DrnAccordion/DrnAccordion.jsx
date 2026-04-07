@@ -2,7 +2,7 @@ import './DrnAccordion.scss'
 
 const DrnAccordion = (props) => {
    const {
-      title = 'asd',
+      title = 'details',
       id,
       name,
       isOpen,
@@ -10,7 +10,7 @@ const DrnAccordion = (props) => {
    } = props
 
    return (
-      <div className="details-wrapper">
+      <div className="details-wrapper container">
 
          <details
             className='details'
@@ -25,9 +25,10 @@ const DrnAccordion = (props) => {
             <div
                className='details-content'
                id={id}
-               role="defenition"
+               role=""
             >
-               {children}
+               {/* {children} */}
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, illo.</p>
             </div>
          </details>
 

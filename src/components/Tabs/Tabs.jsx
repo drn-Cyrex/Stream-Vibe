@@ -1,6 +1,6 @@
 import './Tabs.scss'
 import classNames from 'classnames'
-import getTabsElementsIdFromTitle from './utils/getTabsElementsIdFromTitle'
+import getTabsElementsIdsFromTitle from './utils/getTabsElementsIdFromTitle'
 import TabsNavigation from './components/TabsNavigation/TabsNavigation'
 
 const Tabs = (props) => {
@@ -9,13 +9,13 @@ const Tabs = (props) => {
       title,
       items = [],
       navigationTargetElementId = null,
-      isEnableOnlyMobile = true,
+      isEnableOnlyOnMobile = false,
    } = props
 
    return (
       <div
          className={classNames(className, 'tabs', {
-            'tabs--enable-only-on-mobile': isEnableOnlyMobile,
+            'tabs--enable-only-on-mobile': isEnableOnlyOnMobile,
          })}
          data-js-tabs={JSON.stringify({
             navigationTargetElementId,
@@ -30,7 +30,7 @@ const Tabs = (props) => {
                   isActive,
                } = item
 
-               const { buttonId, contentId } = getTabsElementsIdFromTitle(title)
+               const { buttonId, contentId } = getTabsElementsIdsFromTitle(title)
 
                return (
                   <div
@@ -51,4 +51,5 @@ const Tabs = (props) => {
       </div>
    )
 }
+
 export default Tabs
