@@ -6,6 +6,7 @@ import Tabs from '@/components/Tabs/Tabs'
 import Specifications from '@/components/Specifications/Specifications'
 
 const PlansComparison = () => {
+   
    const headCells = [
       {
          children: 'Features',
@@ -17,9 +18,9 @@ const PlansComparison = () => {
          tabsTitle: 'Basic',
       },
       {
-         children: <>Standard <Badge mode="accent">Popular</Badge></>,
+         children: <>Standard <Badge mode="popular">Popular</Badge></>,
          width: '25%',
-         tabsTitle: 'Standart',
+         tabsTitle: 'Standard',
       },
       {
          children: 'Premium',

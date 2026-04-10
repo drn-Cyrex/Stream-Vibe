@@ -12,7 +12,7 @@ const seasonItems = [
             duration: "49 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/1.jpg",
+               poster: "/public/video-posters/video-posters-1.jpg",
             },
          },
          {
@@ -23,7 +23,7 @@ const seasonItems = [
             duration: "56 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/2.jpg",
+               poster: "/public/video-posters/video-posters-2.jpg",
             },
          },
          {
@@ -34,7 +34,7 @@ const seasonItems = [
             duration: "52 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/3.jpg",
+               poster: "/public/video-posters/video-posters-3.jpg",
             },
          },
          {
@@ -45,7 +45,7 @@ const seasonItems = [
             duration: "51 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/4.jpg",
+               poster: "/public/video-posters/video-posters-4.jpg",
             },
          },
          {
@@ -56,7 +56,7 @@ const seasonItems = [
             duration: "53 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/5.jpg",
+               poster: "/public/video-posters/video-posters-5.jpg",
             },
          },
          {
@@ -67,7 +67,7 @@ const seasonItems = [
             duration: "49 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/1.jpg",
+               poster: "/public/video-posters/video-posters-1.jpg",
             },
          },
          {
@@ -78,7 +78,7 @@ const seasonItems = [
             duration: "49 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/2.jpg",
+               poster: "/public/video-posters/video-posters-2.jpg",
             },
          },
          {
@@ -89,7 +89,7 @@ const seasonItems = [
             duration: "49 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/3.jpg",
+               poster: "/public/video-posters/video-posters-3.jpg",
             },
          },
          {
@@ -100,7 +100,7 @@ const seasonItems = [
             duration: "49 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/4.jpg",
+               poster: "/public/video-posters/video-posters-4.jpg",
             },
          },
       ],
@@ -118,7 +118,7 @@ const seasonItems = [
             duration: "49 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/1.jpg",
+               poster: "/public/video-posters/video-posters-1.jpg",
             },
          },
          {
@@ -129,7 +129,7 @@ const seasonItems = [
             duration: "56 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/2.jpg",
+               poster: "/public/video-posters/video-posters-2.jpg",
             },
          },
          {
@@ -140,7 +140,7 @@ const seasonItems = [
             duration: "52 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/3.jpg",
+               poster: "/public/video-posters/video-posters-3.jpg",
             },
          },
          {
@@ -151,7 +151,7 @@ const seasonItems = [
             duration: "51 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/4.jpg",
+               poster: "/public/video-posters/video-posters-4.jpg",
             },
          },
          {
@@ -162,7 +162,7 @@ const seasonItems = [
             duration: "53 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/5.jpg",
+               poster: "/public/video-posters/video-posters-5.jpg",
             },
          },
       ],
@@ -180,7 +180,7 @@ const seasonItems = [
             duration: "49 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/1.jpg",
+               poster: "/public/video-posters/video-posters-1.jpg",
             },
          },
          {
@@ -191,7 +191,7 @@ const seasonItems = [
             duration: "56 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/2.jpg",
+               poster: "/public/video-posters/video-posters-2.jpg",
             },
          },
          {
@@ -202,7 +202,7 @@ const seasonItems = [
             duration: "52 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/3.jpg",
+               poster: "/public/video-posters/video-posters-3.jpg",
             },
          },
          {
@@ -213,7 +213,7 @@ const seasonItems = [
             duration: "51 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/4.jpg",
+               poster: "/public/video-posters/video-posters-4.jpg",
             },
          },
          {
@@ -224,7 +224,7 @@ const seasonItems = [
             duration: "53 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/5.jpg",
+               poster: "/public/video-posters/video-posters-5.jpg",
             },
          },
          {
@@ -235,7 +235,7 @@ const seasonItems = [
             duration: "49 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/1.jpg",
+               poster: "/public/video-posters/video-posters-1.jpg",
             },
          },
          {
@@ -246,7 +246,7 @@ const seasonItems = [
             duration: "49 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/2.jpg",
+               poster: "/public/video-posters/video-posters-2.jpg",
             },
          },
       ],

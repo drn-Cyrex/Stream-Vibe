@@ -1,9 +1,10 @@
-import classNames from 'classnames'
 import './Section.scss'
+import classNames from 'classnames'
 
 const Section = (props) => {
    const {
       className,
+      mode = '',
       title,
       titleId,
       description,
@@ -13,7 +14,9 @@ const Section = (props) => {
    } = props
 
    return (
-      <section className={classNames(className, 'section container ')}
+      <section className={classNames(className, 'section container', {
+         [`section--${mode}`]: mode,
+      })}
          aria-label={titleId}
       >
          <header className='section__header'>

@@ -14,6 +14,7 @@ const Plans = () => {
          title="Choose the plan that's right for you"
          titleId="plans-id"
          description="Join StreamVibe and select from our flexible subscription options tailored to suit your viewing preferences. Get ready for non-stop entertainment!"
+         mode='mt'
          actions={(
             <TabsNavigation
                id={tabsNavigationId}

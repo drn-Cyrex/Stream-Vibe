@@ -5,6 +5,10 @@
    // margin: 3rem 0;
 }
 
+.section--mt {
+   margin-top: fluid(100, 40);
+}
+
 .section__header {
    display: flex;
    justify-content: space-between;
