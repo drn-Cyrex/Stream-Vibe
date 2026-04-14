@@ -76,6 +76,7 @@
    background-color: color-mix(in srgb, var(--color-black) 60%, transparent);
    border: none;
    border-radius: 50%;
+   cursor: pointer;
 
    @include hover {
       background-color: var(--color-red-60);

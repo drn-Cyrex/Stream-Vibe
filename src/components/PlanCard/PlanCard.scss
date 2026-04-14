@@ -51,7 +51,7 @@
       content: "";
       position: absolute;
       inset: 0px;
-      z-index: -2;
+      z-index: -10;
       border-radius: 7px;
       background-image: conic-gradient(white, black, black, white);
       filter: blur(2px);
@@ -61,5 +61,8 @@
 
    &:hover::before {
       inset: -3px;
+   }
+
+   &:active {
    }
 }

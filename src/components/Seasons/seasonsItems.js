@@ -1,3 +1,12 @@
+// Импортируем файлы на уровне модуля
+import exampleVideo from "/videos/example.mp4"
+
+import videoPostersOne from "/public/video-posters/video-posters-1.jpg"
+import videoPostersTwo from "/public/video-posters/video-posters-2.jpg"
+import videoPostersThree from "/public/video-posters/video-posters-3.jpg"
+import videoPostersFour from "/public/video-posters/video-posters-4.jpg"
+import videoPostersFive from "/public/video-posters/video-posters-5.jpg"
+
 const seasonItems = [
    // Season 01 | 9 Episodes
    {
@@ -11,8 +20,8 @@ const seasonItems = [
                "On his way from a friend’s house, young Will sees something terrifying . Nearby, a sinister secret lurks in the depths of a government lab.",
             duration: "49 min",
             video: {
-               src: "/videos/example.mp4",
-               poster: "/public/video-posters/video-posters-1.jpg",
+               src: exampleVideo,
+               poster: videoPostersOne,
             },
          },
          {
@@ -23,7 +32,7 @@ const seasonItems = [
             duration: "56 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/video-posters-2.jpg",
+               poster: videoPostersTwo,
             },
          },
          {
@@ -34,7 +43,7 @@ const seasonItems = [
             duration: "52 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/video-posters-3.jpg",
+               poster: videoPostersThree,
             },
          },
          {
@@ -45,7 +54,7 @@ const seasonItems = [
             duration: "51 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/video-posters-4.jpg",
+               poster: videoPostersFour,
             },
          },
          {
@@ -56,7 +65,7 @@ const seasonItems = [
             duration: "53 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/video-posters-5.jpg",
+               poster: videoPostersFive,
             },
          },
          {
@@ -67,7 +76,7 @@ const seasonItems = [
             duration: "49 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/video-posters-1.jpg",
+               poster: videoPostersOne,
             },
          },
          {
@@ -78,7 +87,7 @@ const seasonItems = [
             duration: "49 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/video-posters-2.jpg",
+               poster: videoPostersTwo,
             },
          },
          {
@@ -89,7 +98,7 @@ const seasonItems = [
             duration: "49 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/video-posters-3.jpg",
+               poster: videoPostersThree,
             },
          },
          {
@@ -100,7 +109,7 @@ const seasonItems = [
             duration: "49 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/video-posters-4.jpg",
+               poster: videoPostersFour,
             },
          },
       ],
@@ -118,7 +127,7 @@ const seasonItems = [
             duration: "49 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/video-posters-1.jpg",
+               poster: videoPostersOne,
             },
          },
          {
@@ -129,7 +138,7 @@ const seasonItems = [
             duration: "56 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/video-posters-2.jpg",
+               poster: videoPostersTwo,
             },
          },
          {
@@ -140,7 +149,7 @@ const seasonItems = [
             duration: "52 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/video-posters-3.jpg",
+               poster: videoPostersThree,
             },
          },
          {
@@ -151,7 +160,7 @@ const seasonItems = [
             duration: "51 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/video-posters-4.jpg",
+               poster: videoPostersFour,
             },
          },
          {
@@ -162,7 +171,7 @@ const seasonItems = [
             duration: "53 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/video-posters-5.jpg",
+               poster: videoPostersFive,
             },
          },
       ],
@@ -180,7 +189,7 @@ const seasonItems = [
             duration: "49 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/video-posters-1.jpg",
+               poster: videoPostersOne,
             },
          },
          {
@@ -191,7 +200,7 @@ const seasonItems = [
             duration: "56 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/video-posters-2.jpg",
+               poster: videoPostersTwo,
             },
          },
          {
@@ -202,7 +211,7 @@ const seasonItems = [
             duration: "52 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/video-posters-3.jpg",
+               poster: videoPostersThree,
             },
          },
          {
@@ -213,7 +222,7 @@ const seasonItems = [
             duration: "51 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/video-posters-4.jpg",
+               poster: videoPostersFour,
             },
          },
          {
@@ -224,7 +233,7 @@ const seasonItems = [
             duration: "53 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/video-posters-5.jpg",
+               poster: videoPostersFive,
             },
          },
          {
@@ -235,7 +244,7 @@ const seasonItems = [
             duration: "49 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/video-posters-1.jpg",
+               poster: videoPostersOne,
             },
          },
          {
@@ -246,7 +255,7 @@ const seasonItems = [
             duration: "49 min",
             video: {
                src: "/videos/example.mp4",
-               poster: "/public/video-posters/video-posters-2.jpg",
+               poster: videoPostersTwo,
             },
          },
       ],
